@@ -22,4 +22,4 @@ while keyboard.is_pressed("ctrl+q") != True:
         r = requests.post("CHANEL ID",data=payload,headers=header)
         payload["content"] = random.uniform(-1,1)
     msg_count += 1
-print(f"messages total spammed: {msg_count}")
+print("Stoped the program")
